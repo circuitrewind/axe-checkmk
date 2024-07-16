@@ -83,7 +83,7 @@ register.snmp_section(
 register.check_plugin(
     name = 'axe_effect',
     sections = ['axe_effect_snmp'],
-    service_name = 'Axe Effect %s',
+    service_name = 'Tempie McSensorface %s',
     discovery_function=lambda section: (
         yield from discover_axe(section, {}, 'temp')
     ),
